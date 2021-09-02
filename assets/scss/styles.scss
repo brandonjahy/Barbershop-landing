@@ -1,15 +1,22 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700");
 @import "reset";
+@import "responsive";
 
 
 body {
   background: white;
   font-family: 'Rondal', sans-serif;
   background: #212123;
+  width: 100%;
 }
 
+
+
+
+
 .container {
-  
+  width: 100%;
+  margin: 0 auto;
 }
 
 header {
@@ -17,7 +24,7 @@ header {
   height: 100vh;
   margin-bottom: 50px;
   
-  .intro {
+  #intro {
     width: 100%;
     position: relative;
     .navbar {
@@ -152,13 +159,16 @@ header {
           h4 {
             margin: 0 15px;
           }
+          &:hover {
+            color: #ad987d;
+          }
         }
       }
     }
   }
 }
 
-.about {
+#about {
   height: 100vh;
   width: 100%;
   .left{
@@ -237,7 +247,7 @@ header {
   }
 }
 
-.services {
+#services {
   width: 100%;
   height: 100vh;
   .title-block {
@@ -321,7 +331,7 @@ header {
   }
 }
 
-.team {
+#team {
   width: 100%;
   height: 80vh;
   .title-block {
@@ -352,6 +362,7 @@ header {
       height: 450px;
       width: 250px;
       position: relative;
+      transition: all .3s ease-in-out;
       img {
         position: absolute;
         height: 100%;
@@ -371,6 +382,7 @@ header {
         top: 25%;
         left: 15%;
         text-align: center;
+        display: none;
         h1 {
           font-size: 2rem;
           color: white;
@@ -395,6 +407,16 @@ header {
         background: #9f8b74;
         font-family: 'Rondal', sans-serif;
         border-radius: 5px;
+        display: none;
+      }
+      &:hover .text-block{
+        display: block;
+      }
+      &:hover button {
+        display: block;
+      }
+      &:hover {
+        transform: scale(1.1);
       }
     }
     .card2 {
@@ -404,6 +426,7 @@ header {
       height: 450px;
       width: 250px;
       position: relative;
+      transition: all .3s ease-in-out;
       img {
         position: absolute;
         height: 100%;
@@ -447,6 +470,9 @@ header {
         background: #9f8b74;
         font-family: 'Rondal', sans-serif;
         border-radius: 5px;
+      }
+      &:hover {
+        transform: scale(1.1);
       }
     }
     .card3 {
@@ -475,6 +501,7 @@ header {
         top: 25%;
         left: 15%;
         text-align: center;
+        display: none;
         h1 {
           font-size: 2rem;
           color: white;
@@ -499,12 +526,22 @@ header {
         background: #9f8b74;
         font-family: 'Rondal', sans-serif;
         border-radius: 5px;
+        display: none;
+      }
+      &:hover .text-block{
+        display: block;
+      }
+      &:hover button {
+        display: block;
+      }
+      &:hover {
+        transform: scale(1.1);
       }
     }
   }
 }
 
-.shop {
+#shop {
   width: 100%;
   height: 90vh;
   .title-block {
@@ -777,7 +814,7 @@ header {
   }
 }
 
-.footer {
+#footer {
   height: 40vh;
   width: 100%;
   .footer-bar {
