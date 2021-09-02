@@ -230,38 +230,51 @@
         .navbar {
 
           .nav-links {
-            margin-left: 100px;
+            margin-left: 55px;
+            a {
+                margin: 0 10px;
+            }
           }
           .nav-icons {
-              margin-left: 100px;
+              margin-left: 50px;
           }
         }
         .left {
 
             .text-block {
                 top: 136px;
+                h1 {
+                    font-size: 2rem;
+                }
+                p {
+                    font-size: 10px;
+                    margin: 10px 0;
+                }
             }
         }
         .right {
 
             .text-block {
-                left: 88%;
+                top: 200px;
+                left: 85%;
             }
         }
       }
     }
 
     body #about {
+        width: 100%;
         height: 50vh;
         .right {
 
             .text-block {
                 margin-top: 10px;
                 h3 {
-                    font-size: 1.7rem;
+                    font-size: 1.2rem;
                     margin-bottom: 19px;
                 }
                 p {
+                    font-size: 10px;
                     margin-bottom: 17px;
                 }
             }
@@ -272,26 +285,131 @@
         width: 100%;
         height: 75vh;
         .left {
-            height: 64%;
+            height: 85%;
+            .text-block {
+                
+                h3 {
+                    font-size: 2rem;
+                }
+            }
         }
     }
 
     body #team {
-        height: 55vh;
+        height: 60vh;
+        margin-top: 5rem;
         .card-block {
             width: 100%;
+            .card1 {
+
+                img {
+                    width: 196px;
+                    height: 70%;
+                }
+                .layer {
+                    height: 70%;
+                    bottom: 135px;
+                }
+                .text-block {
+                    top: 10%;
+                    left: 15%;
+                    h1 {
+                        font-size: 26px;
+                    }
+                    h5 {
+                        font-size: 16px;
+                    }
+                }
+                button {
+                    top: 50%;
+                    left: 17%;
+                    height: 40px;
+                    width: 140px;
+                }
+            }
+            .card2 {
+
+                .text-block {
+                    top: 10%;
+                    left: 15%;
+                    h1 {
+                        font-size: 26px;
+                    }
+                    h5 {
+                        font-size: 16px;
+                    }
+                }
+                img {
+                    width: 196px;
+                    height: 70%;
+                }
+                .layer {
+                    height: 70%;
+                    bottom: 135px;
+                }
+                button {
+                    top: 50%;
+                    left: 17%;
+                    height: 40px;
+                    width: 140px;
+                }
+            }
+            .card3 {
+
+                img {
+                    width: 196px;
+                    height: 70%;
+                }
+                .layer {
+                    height: 70%;
+                    bottom: 135px;
+                }
+                .text-block {
+                    top: 10%;
+                    left: 15%;
+                    h1 {
+                        font-size: 26px;
+                    }
+                    h5 {
+                        font-size: 16px;
+                    }
+                }
+                button {
+                    top: 50%;
+                    left: 17%;
+                    height: 40px;
+                    width: 140px;
+                }
+            }
         }
     }
 
     body #shop {
         width: 100%;
         .shop-grid {
-            height: 60%;
+            height: 80%;
 
             .grid1 {
 
+                h1 {
+                    font-size: 2rem;
+                }
                 p {
+                    font-size: 10px;
                     margin-bottom: 10px;
+                }
+            }
+            .grid2 {
+                
+                .item-img {
+                    width: 56%;
+                }
+                .text-block {
+                    margin-top: 140px;
+                    position: absolute;
+                    h1 {
+                        font-size: 2rem;
+                    }
                 }
             }
         }
@@ -304,6 +422,9 @@
 
             a {
                 margin: 200px 10px 0 10px;
+                img {
+                    width: 100px;
+                }
             }
         }
     }
@@ -314,7 +435,7 @@
         .footer-bar {
             
             .logo {
-                margin-left: 4rem;
+                margin-left: 3rem;
                 h1 {
                     font-size: 3rem;
                     padding: 30px;
@@ -323,11 +444,505 @@
             .text-block {
                 margin: 0;
             }
+            .nav-links {
+                font-size: 10px;
+                a {
+                    margin-right: 10px;
+                }
+            }
         }
     }
     
   }
   
   @media only screen and (max-width: 600px) {
+    
+    body header {
+        height: 55vh;
+        width: 100%;
+        margin: 0 auto;
+      #intro {
+
+        .navbar {
+           
+            .logo {
+                margin-left: 1rem;
+                font-size: 1.5rem;
+                h1 {
+                    padding: 10px;
+                }
+            }
+          .nav-links {
+            margin-left: 3px;
+            a {
+                font-size: 10px;
+                margin: 0 5px;
+            }
+          }
+          .nav-icons {
+              margin-left: 5px;
+              a {
+                  margin: 0 5px;
+                  i {
+                      font-size: 10px;
+                  }
+              }
+          }
+        }
+        .left {
+            .left-bg-img {
+
+                img {
+                    height: 300px;
+                }   
+            }
+
+            .text-block {
+                left: 20px;
+                top: 80px;
+                h1 {
+                    font-size: 1rem;
+                }
+                p {
+                    line-height: 1;
+                    font-size: 10px;
+                    margin: 10px 0;
+                }
+                button {
+                    height: 20px;
+                    width: 100px;
+                    font-size: 10px;
+                }
+            }
+            
+        }
+        .right {
+            .right-bg-img {
+
+                img {
+                    height: 300px;
+                }   
+            }
+            .text-block {
+                top: 160px;
+                left: 78%;
+                a {
+                    font-size: 10px;
+                }
+            }
+        }
+      }
+    }
+
+    body #about {
+        width: 100%;
+        height: 50vh;
+        .right {
+
+            .title-block {
+                margin-left: 20px;
+                h1 {
+                    font-size: 20px;
+                }
+                .line {
+                    width: 30px;
+                }
+            }
+            .text-block {
+                margin-left: 20px;
+                margin-top: 10px;
+                h3 {
+                    font-size: 16px;
+                    margin-bottom: 19px;
+                }
+                p {
+                    font-size: 10px;
+                    margin-bottom: 5px;
+                    line-height: 1;
+                }
+                button {
+                    height: 20px;
+                    width: 120px;
+                    font-size: 10px;
+                    margin-top: 20px;
+                }
+            }
+        }
+    }
+
+    body #services {
+        width: 100%;
+        height: 50vh;
+        .title-block {
+            margin-left: 20px;
+            h1 {
+                font-size: 20px;
+            }
+            .line {
+                width: 30px;
+            }
+        }
+        .left {
+            height: 300px;
+            .text-block {
+                top: 18px;
+                left: -28px;
+                h3 {
+                    font-size: 16px;
+                }
+                p {
+                    font-size: 12px;
+                    width: 97%;
+                    line-height: 1;
+                    margin-bottom: 20px;
+                }
+                h5 {
+                    font-size: 12px;
+                    padding-bottom: 10px;
+                }
+                button {
+                    height: 20px;
+                    width: 120px;
+                    font-size: 10px;
+                    margin-top: 20px;
+                }
+            }
+        }
+        .right {
+            .img-bg {
+                img {
+                    height: 300px;
+                }
+            }
+        }
+    }
+
+    body #team {
+        height: 30vh;
+        margin-top: 5rem;
+        .title-block {
+            margin-left: 20px;
+            h1 {
+                font-size: 20px;
+            }
+            .line {
+                width: 30px;
+            }
+        }
+        .card-block {
+            width: 100%;
+            .card1 {
+
+                img {
+                    width: 80px;
+                    height: 30%;
+                }
+                .layer {
+                    height: 30%;
+                    width: 80px;
+                    bottom: 315px;
+                }
+                .text-block {
+                    top: 4%;
+                    left: 17%;
+                    h1 {
+                        font-size: 12px;
+                        padding-bottom: 10px;
+                    }
+                    h5 {
+                        font-size: 6px;
+                        padding-bottom: 10px;
+                    }
+                }
+                button {
+                    top: 20%;
+                    left: 17%;
+                    height: 10px;
+                    width: 60px;
+                    font-size: 6px;
+                }
+            }
+            .card2 {
+
+                .text-block {
+                    top: 4%;
+                    left: 17%;
+                    h1 {
+                        font-size: 12px;
+                        padding-bottom: 10px;
+                    }
+                    h5 {
+                        font-size: 6px;
+                        padding-bottom: 10px;
+                    }
+                }
+                button {
+                    top: 20%;
+                    left: 17%;
+                    height: 10px;
+                    width: 60px;
+                    font-size: 6px;
+                }
+                img {
+                    width: 80px;
+                    height: 30%;
+                }
+                .layer {
+                    height: 30%;
+                    width: 80px;
+                    bottom: 315px;
+                }
+                
+            }
+            .card3 {
+
+                img {
+                    width: 80px;
+                    height: 30%;
+                }
+                .layer {
+                    height: 30%;
+                    width: 80px;
+                    bottom: 315px;
+                }
+                .text-block {
+                    top: 4%;
+                    left: 17%;
+                    h1 {
+                        font-size: 12px;
+                        padding-bottom: 10px;
+                    }
+                    h5 {
+                        font-size: 6px;
+                        padding-bottom: 10px;
+                    }
+                }
+                button {
+                    top: 20%;
+                    left: 17%;
+                    height: 10px;
+                    width: 60px;
+                    font-size: 6px;
+                }
+            }
+        }
+    }
+
+    body #shop {
+        width: 100%;
+        .title-block {
+            margin-left: 20px;
+            h1 {
+                font-size: 20px;
+            }
+            .line {
+                width: 30px;
+            }
+        }
+        .shop-grid {
+            height: 80%;
+
+            .grid1 {
+
+                h1 {
+                    font-size: 16px;
+                }
+                p {
+                    font-size: 10px;
+                    margin-bottom: 10px;
+                }
+                button {
+                    width: 120px;
+                    height: 20px;
+                    font-size: 10px;
+                }
+            }
+            .grid2 {
+                height: 240px;
+                .item-img {
+                    width: 56%;
+                    margin-top: 33px;
+                }
+                .text-block {
+                    margin-top: 100px;
+                    position: absolute;
+                    margin-left: 3px;
+                    h5 {
+                        font-size: 12px;
+                    }
+                    h1 {
+                        font-size: 14px;
+                    }
+                    h2 {
+                        font-size: 12px;
+                    }
+                    button {
+                        width: 120px;
+                        height: 20px;
+                        font-size: 10px;
+                    }
+                }
+            }
+            .grid3 {
+                height: 241px;
+                .item-img {
+                    img {
+                        height: 110px;
+                    }
+                }
+                .text-block {
+                    margin-left: 0;
+                    h5 {
+                        font-size: 12px;
+                    }
+                    h1 {
+                        font-size: 16px;
+                    }
+                    h2 {
+                        font-size: 12px;
+                    }
+                    button {
+                        height: 30px;
+                        width: 30px;
+                        font-size: 8px;
+                    }
+                }
+            }
+            .grid4 {
+                height: 83%;
+                .item-img {
+                    img {
+                        height: 94px;
+                        margin-bottom: 14px;
+                    }
+                }
+                .text-block {
+                    margin-left: 0;
+                    h5 {
+                        font-size: 12px;
+                    }
+                    h1 {
+                        font-size: 16px;
+                    }
+                    h2 {
+                        font-size: 12px;
+                    }
+                    button {
+                        height: 30px;
+                        width: 30px;
+                        font-size: 8px;
+                    }
+                }
+            }
+            .grid5 {
+                height: 241px;
+                .item-img {
+                    img {
+                        height: 110px;
+                    }
+                }
+                .text-block {
+                    margin-left: 0;
+                    h5 {
+                        font-size: 12px;
+                    }
+                    h1 {
+                        font-size: 16px;
+                    }
+                    h2 {
+                        font-size: 12px;
+                    }
+                    button {
+                        height: 30px;
+                        width: 30px;
+                        font-size: 8px;
+                    }
+                }
+            }
+            .grid6 {
+                height: 83%;
+                .item-img {
+                    img {
+                        height: 96px;
+                        margin-bottom: 13px;
+                    }
+                }
+                .text-block {
+                    margin-left: 0;
+                    h5 {
+                        font-size: 12px;
+                    }
+                    h1 {
+                        font-size: 16px;
+                    }
+                    h2 {
+                        font-size: 12px;
+                    }
+                    button {
+                        height: 30px;
+                        width: 30px;
+                        font-size: 8px;
+                    }
+                }
+            }
+        }
+    }
+
+    body .footer-logos {
+        height: 50%;
+        width: 100%;
+        margin-top: 0;
+        .logo-block {
+
+            a {
+                margin: 80px 10px 80px 10px;
+                img {
+                    width: 40px;
+                }
+            }
+        }
+    }
+
+    body #footer {
+        height: 24vh;
+        width: 100%;
+        .footer-bar {
+            
+            .logo {
+                margin-left: 1rem;
+                h1 {
+                    font-size: 1rem;
+                    padding: 10px;
+                }
+            }
+            .text-block {
+                margin: 5px;
+                h2 {
+                    font-size: 10px;
+                    margin-bottom: 10px;
+                }
+                h5 {
+                    font-size: 8px;
+                }
+                h6 {
+                    font-size: 8px;
+                    margin-bottom: 10px;
+                }
+                h4 {
+                    font-size: 8px;
+                }
+                h3 {
+                    font-size: 8px;
+                }
+            }
+            .nav-links {
+                font-size: 6px;
+                a {
+                    margin-right: 10px;
+                    font-size: 8px;
+                }
+            }
+        }
+    }
     
   }
